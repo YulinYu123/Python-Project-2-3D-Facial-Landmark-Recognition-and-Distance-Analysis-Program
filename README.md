@@ -1,5 +1,5 @@
 ## Project Overview
-This project involves analyzing 3D Euclidean distances between significant facial landmarks to perform face recognition. Using a dataset containing 3D coordinates of 15 facial landmarks for various individuals, the program calculates facial distances, compares the similarity between two faces, and identifies the five most similar faces from the dataset.
+This project involves analysing 3D Euclidean distances between significant facial landmarks to perform face recognition. Using a dataset containing 3D coordinates of 15 facial landmarks for various individuals, the program calculates facial distances, compares the similarity between two faces, and identifies the five most similar faces from the dataset.
 
 ## Features
 - **Euclidean Distance Calculation**: Computes 3D Euclidean distances between 10 specified landmark pairs for given faces.
@@ -21,20 +21,17 @@ The `main` function returns the following four outputs:
 4. **OP4**: A list of two dictionaries showing the average facial distances for the closest five faces to each reference face.
 
 ## Example Usage
-
-Sample code execution:
 ```python
-from facial_landmark_analysis import main
-
-# Example usage
-csv_file = 'sample_face_data.csv'
-adult_ids = ['A0001', 'B0002']
-
-# Get the output
-OP1, OP2, OP3, OP4 = main(csv_file, adult_ids)
+# examples of how you can call the program
+OP1, OP2, OP3, OP4 = main(sample_face_data.csv, ['R7033', 'P1283'])
 
 # Print the results
 print("OP1:", OP1)
 print("OP2:", OP2)
 print("OP3:", OP3)
 print("OP4:", OP4)
+```
+
+## How to Run
+- Clone this repository
+- Run the script by providing the necessary inputs (csvfile, and ).
