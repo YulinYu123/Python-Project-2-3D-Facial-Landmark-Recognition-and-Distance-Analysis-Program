@@ -34,4 +34,4 @@ print("OP4:", OP4)
 
 ## How to Run
 - Clone this repository
-- Run the script by providing the necessary inputs (csvfile, and ).
+- Run the script by providing the necessary inputs (csvfile, and adult ids).
